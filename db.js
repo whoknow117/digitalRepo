@@ -11,7 +11,7 @@ module.exports = new Sequelize(
         port: process.env.DB_PORT,
         dialectOptions:{
 
-            ssl: false
+            ssl: process.env.DB_SSL
             
 
         }
